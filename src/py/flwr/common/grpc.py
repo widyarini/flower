@@ -46,7 +46,7 @@ def create_channel(
         ("grpc.max_send_message_length", max_message_length),
         ("grpc.max_receive_message_length", max_message_length),
         ("grpc.keepalive_timeout_ms", 900000),
-        ("grpc.keepalive_time_ms", 60000)
+        ("grpc.keepalive_time_ms", 900000)
     ]
 
     if insecure:
